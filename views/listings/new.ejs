@@ -26,7 +26,7 @@
 
          <div class="mb-3 col-md-4">
          <label for="price" class="form-lable">Price</label>
-       <input name="listing[price]" placeholder="enter price" type="" class="form-control" required>
+       <input name="listing[price]" type="number" class="form-control" required>
        <div class="invalid-feedback">Price should be a valid number.</div>
     </div>
 
@@ -43,9 +43,12 @@
    
     <div class="mb-3">
         <label for="location" class="form-lable">Location</label>
-     <input name="listing[loction]" placeholder="enter location" type="text" class="form-control" required>
+   <input name="listing[location]" placeholder="enter location" type="text" class="form-control" required>
         <div class="invalid-feedback"> Please provide a valid location. </div>
     </div>
+
+    <input name="listing[location]" placeholder="enter location" type="text" class="form-control" required>
+
 
     <br> <br>
     <button class="btn btn-dark add-btn">Add</button>
